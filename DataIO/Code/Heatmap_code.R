@@ -22,8 +22,6 @@ ggplot() +
   theme_minimal() +
   ggtitle("Start Locations of Bike Rides in Chicago")
 
-ggmap::register_google("AIzaSyCyaifzZzs6rAdrg1SOWLO-PtSYFqWleH0")
-
 #google map image of chicago - base layer of map 
 chicago_map <- get_map(location = 'Chicago', zoom = 10)
 
